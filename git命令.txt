@@ -1,0 +1,20 @@
+1.打开新建文件夹，空白处右键
+
+  Git Bash here  
+
+2.目录下会生成一个新的 .git的文件夹，用于本地代码仓库
+
+  git init
+
+3.配置本地仓库的账号和邮箱
+
+  $ git config --global user.name "Betsy-qdy" 
+  $ git config --global user.email "762207734@qq.com"
+
+4.为了避免每次远程访问需要输密码，将使用ssh登陆。ssh应该与本机信息绑定。查看自己电脑 C:\Users\Administrator 目录下是否有.ssh 文件夹。如果没有就需要生成。
+
+  $ ssh-keygen -t rsa -C "762207734@qq.com" 
+
+5.git clone 后面是需要克隆的项目地址
+
+  git clone https://github.com/Betsy-qdy/node-project.git
