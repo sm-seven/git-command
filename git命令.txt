@@ -26,3 +26,11 @@
 4.git remote add origin https://github.com/Betsy-qdy/git-command.git
   常见问题  remote origin already exists   解决方法  git remote rm origin
 5.git push -u origin master
+
+三.更新github项目
+1.git pull
+2.git merge master
+3.git add .
+4.git commit -m "项目更新"
+5.git remote add origin https://github.com/Betsy-qdy/git-command.git
+6.git push -u origin master
