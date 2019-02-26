@@ -18,3 +18,11 @@
 5.git clone 后面是需要克隆的项目地址
 
   git clone https://github.com/Betsy-qdy/node-project.git
+
+二.git上传项目到github上
+1.git init
+2.git add .
+3.git commit -m "git命令"
+4.git remote add origin https://github.com/Betsy-qdy/git-command.git
+  常见问题  remote origin already exists   解决方法  git remote rm origin
+5.git push -u origin master
