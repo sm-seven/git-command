@@ -1,36 +1,40 @@
-1.´ò¿ªĞÂ½¨ÎÄ¼ş¼Ğ£¬¿Õ°×´¦ÓÒ¼ü
-
+1.æ‰“å¼€æ–°å»ºæ–‡ä»¶å¤¹ï¼Œç©ºç™½å¤„å³é”®
   Git Bash here  
 
-2.Ä¿Â¼ÏÂ»áÉú³ÉÒ»¸öĞÂµÄ .gitµÄÎÄ¼ş¼Ğ£¬ÓÃÓÚ±¾µØ´úÂë²Ö¿â
-
+2.ç›®å½•ä¸‹ä¼šç”Ÿæˆä¸€ä¸ªæ–°çš„ .gitçš„æ–‡ä»¶å¤¹ï¼Œç”¨äºæœ¬åœ°ä»£ç ä»“åº“
   git init
 
-3.ÅäÖÃ±¾µØ²Ö¿âµÄÕËºÅºÍÓÊÏä
-
+3.é…ç½®æœ¬åœ°ä»“åº“çš„è´¦å·å’Œé‚®ç®±
   $ git config --global user.name "Betsy-qdy" 
   $ git config --global user.email "762207734@qq.com"
 
-4.ÎªÁË±ÜÃâÃ¿´ÎÔ¶³Ì·ÃÎÊĞèÒªÊäÃÜÂë£¬½«Ê¹ÓÃsshµÇÂ½¡£sshÓ¦¸ÃÓë±¾»úĞÅÏ¢°ó¶¨¡£²é¿´×Ô¼ºµçÄÔ C:\Users\Administrator Ä¿Â¼ÏÂÊÇ·ñÓĞ.ssh ÎÄ¼ş¼Ğ¡£Èç¹ûÃ»ÓĞ¾ÍĞèÒªÉú³É¡£
-
+4.ä¸ºäº†é¿å…æ¯æ¬¡è¿œç¨‹è®¿é—®éœ€è¦è¾“å¯†ç ï¼Œå°†ä½¿ç”¨sshç™»é™†ã€‚sshåº”è¯¥ä¸æœ¬æœºä¿¡æ¯ç»‘å®šã€‚æŸ¥çœ‹è‡ªå·±ç”µè„‘ C:\Users\Administrator ç›®å½•ä¸‹æ˜¯å¦æœ‰.ssh æ–‡ä»¶å¤¹ã€‚å¦‚æœæ²¡æœ‰å°±éœ€è¦ç”Ÿæˆã€‚
   $ ssh-keygen -t rsa -C "762207734@qq.com" 
 
-5.git clone ºóÃæÊÇĞèÒª¿ËÂ¡µÄÏîÄ¿µØÖ·
-
+5.git clone åé¢æ˜¯éœ€è¦å…‹éš†çš„é¡¹ç›®åœ°å€
   git clone https://github.com/Betsy-qdy/node-project.git
 
-¶ş.gitÉÏ´«ÏîÄ¿µ½githubÉÏ
+äºŒ.gitä¸Šä¼ é¡¹ç›®åˆ°githubä¸Š
 1.git init
 2.git add .
-3.git commit -m "gitÃüÁî"
+3.git commit -m "gitå‘½ä»¤"
 4.git remote add origin https://github.com/Betsy-qdy/git-command.git
-  ³£¼ûÎÊÌâ  remote origin already exists   ½â¾ö·½·¨  git remote rm origin
+  å¸¸è§é—®é¢˜  remote origin already exists   è§£å†³æ–¹æ³•  git remote rm origin
 5.git push -u origin master
 
-Èı.¸üĞÂgithubÏîÄ¿
+ä¸‰.æ›´æ–°githubé¡¹ç›®
 1.git pull
 2.git merge master
 3.git add .
-4.git commit -m "ÏîÄ¿¸üĞÂ"
+4.git commit -m "é¡¹ç›®æ›´æ–°"
 5.git remote add origin https://github.com/Betsy-qdy/git-command.git
 6.git push -u origin master
+
+å››.æ–°å»ºä¸€ä¸ªvueé¡¹ç›®
+1.$ cnpm install --global vue-cli
+2.$ vue init webpack my-project
+
+äº”.å¯åŠ¨vueé¡¹ç›®
+1.é€‰ä¸­vueé¡¹ç›®æ–‡ä»¶å¤¹
+2.$ cnpm install
+3.$ cnpm run dev
