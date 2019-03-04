@@ -31,8 +31,9 @@
 6.git push -u origin master
 
 四.新建一个vue项目
-1.$ cnpm install --global vue-cli
-2.$ vue init webpack my-project
+1.$ cnpm install --global webpack
+2.$ cnpm install --global vue-cli
+3.$ vue init webpack my-project
 
 五.启动vue项目
 1.选中vue项目文件夹
