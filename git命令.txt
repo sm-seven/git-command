@@ -69,3 +69,7 @@
 4. 输入以下命令安装mysql：mysqld --install mysql
 5. 输入以下命令启动mysql：net start mysql
 6. 输入以下命令登录mysql：mysql -u root -p，输入初始密码，复制初始密码，点击右键可粘贴。
+
+
+
+
