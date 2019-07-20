@@ -48,6 +48,7 @@
             port = 3306
 
             [mysqld]
+            skip-grant-tables
             #设置3306端口
             port = 3306
             # 设置mysql的安装目录
@@ -69,7 +70,7 @@
 4. 输入以下命令安装mysql：mysqld --install mysql
 5. 输入以下命令启动mysql：net start mysql
 6. 输入以下命令登录mysql：mysql -u root -p，输入初始密码，复制初始密码，点击右键可粘贴。
-
+7. 重置密码：set password for ‘root’@‘localhost’=password(‘123456’);
 
 
 
