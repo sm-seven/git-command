@@ -32,8 +32,29 @@
 3.git add .
 4.git commit -m "项目更新"
 5.git remote add origin https://github.com/Betsy-qdy/git-command.git
+-------------------分支操作---------------------------
 6.git push -u origin master
-
+ // 本地创建新分支后，更新远程仓添加该分支
+7.git push --set-upstream origin branchName
+ // git远程仓强制覆盖本地
+8.git fetch --all
+  git reset --hard origin/master(或branchName)
+ // 将创建mybranch并跟踪origin/abranch
+9.git checkout -b branch origin/branch   
+ // 将只创建'branch'
+10.git checkout --track origin/branch  
+  新建分支
+    1) git branch 分支名	// 新建分支但不切换指新分支
+    2) git checkout -b 分支名	// 新建并切换到新分支
+  切换分支
+    git checkout 分支名
+  查看分支
+    git branch   		      // 本地分支
+    git branch -r 		      // 远端服务器分支
+    git branch -a /  git branch --all   // 远端服务器和本地工程所有分支
+  删除分支
+    git branch -d 分支名	// 删除本地分支
+    git branch -d -r 分支名	// 删除远程分支
 四.新建一个vue项目
 1.$ cnpm install --global webpack
 2.$ cnpm install --global vue-cli
